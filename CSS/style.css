@@ -1,0 +1,65 @@
+/* css font rules 
+font-family: 'Amatic SC', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+body {
+  margin: 0;
+}
+
+.top_bar h1 {
+  margin: 0px;
+  position: absolute;
+}
+
+.top_bar {
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  position: relative;
+  bottom: 16px;
+}
+
+.navbar {
+  text-align: right;
+  line-height: 100px;
+}
+
+h3 {
+  position: relative;
+  bottom: 77px;
+  float: left;
+  color: white;
+  font-size: 60px;
+  margin-left: 50px;
+  font-family: "Dosis", sans-serif;
+}
+
+.nav-items {
+}
+
+.nav_links {
+  display: inline;
+  margin: 20px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.nav_links a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.5;
+}
+
+.nav_links a:hover {
+  color: white;
+  opacity: 1;
+  /* padding: 0px 8px 0px 8px;
+  border-radius: 10px; */
+}
+
+.nav_links:last-child {
+  margin-right: 50px;
+}
