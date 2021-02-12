@@ -1,4 +1,4 @@
-/* css font rules 
+/* css font rules
 font-family: 'Amatic SC', cursive;
 font-family: 'Dosis', sans-serif;
 font-family: 'Mulish', sans-serif;
@@ -26,14 +26,15 @@ body {
   line-height: 100px;
 }
 
-h3 {
+h4 {
   position: relative;
-  bottom: 77px;
+  bottom: 95px;
   float: left;
   color: white;
   font-size: 60px;
-  margin-left: 50px;
-  font-family: "Dosis", sans-serif;
+  padding-left: 115px;
+  font-family: "Mulish", sans-serif;
+  letter-spacing: 10px;
 }
 
 .nav-items {
@@ -56,10 +57,19 @@ h3 {
 .nav_links a:hover {
   color: white;
   opacity: 1;
-  /* padding: 0px 8px 0px 8px;
+  /* padding: 3px 8px 3px 8px;
+  background-color: rgb(45, 59, 43);
   border-radius: 10px; */
 }
 
 .nav_links:last-child {
   margin-right: 50px;
+}
+
+.nav_icon {
+  color: white;
+  position: relative;
+  bottom: 105px;
+  font-size: 45px;
+  right: 295px;
 }
