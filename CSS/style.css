@@ -60,7 +60,7 @@ h4 {
 }
 
 .nav_links:last-child {
-  margin-right: 50px;
+  margin-right: 55px;
 }
 
 .nav_icon {
@@ -71,15 +71,20 @@ h4 {
   right: 295px;
 }
 
+/* begin hero banner */
+
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.651),
+      rgba(255, 255, 255, 0.404)
+    ),
     url("/img/moped.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 500px;
+  height: 1000px;
   bottom: 16px;
 }
 
@@ -90,19 +95,105 @@ h4 {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  /* font-family: "Mulish", sans-serif; */
-}
-
-h1 {
-  font-size: 150px;
+  font-size: 110px;
   margin-bottom: 0;
   margin-top: 0;
   vertical-align: middle;
   font-family: "Amatic SC", cursive;
 }
+/* end hero banner */
 
-/* .tagline {
-  font-family: "Amatic SC", cursive;
+/* begin feature section */
+.feature_title_box {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.feature_icon {
   font-size: 50px;
-  margin-top: 0;
-} */
+}
+
+.feature_heading {
+  font-size: 50px;
+  font-family: "Mulish", sans-serif;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.blog_features {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.feature_box {
+  padding-bottom: 20px;
+  width: 25%;
+  border: rgb(160, 160, 160) solid 1px;
+  display: inline-block;
+  margin: 0px 15px 0px 15px;
+  text-align: center;
+  position: relative;
+}
+
+.feature_box:hover {
+  border: black solid 1px;
+  opacity: 1;
+}
+
+.feature_img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 15px;
+}
+
+.feature_box a {
+  text-decoration: none;
+  text-align: center;
+  color: #243a18bb;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.feature_box a:hover {
+  color: #243a18;
+}
+
+.view_more_button {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.view_more_button a {
+  text-decoration: none;
+  background-color: #243a18;
+  color: white;
+  padding: 10px 24px 10px 24px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.view_more_button a:hover {
+  opacity: 1;
+}
+/* end feature section */
+
+/* begin tag line section */
+.index_container {
+  height: 800px;
+  width: 100%;
+  background: linear-gradient(0.3turn, #1f351c, white, white);
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.index_container_img {
+  height: 800px;
+}
