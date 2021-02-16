@@ -26,7 +26,7 @@ body {
   line-height: 100px;
 }
 
-h4 {
+.navbar h4 {
   position: relative;
   bottom: 96px;
   float: left;
@@ -55,7 +55,7 @@ h4 {
 }
 
 .nav_links a:hover {
-  color: white;
+  color: #efe6dd;
   opacity: 1;
 }
 
@@ -70,6 +70,7 @@ h4 {
   font-size: 44px;
   right: 295px;
 }
+/* end nav */
 
 /* begin hero banner */
 
@@ -186,14 +187,125 @@ h4 {
 
 /* begin tag line section */
 .index_container {
-  height: 800px;
-  width: 100%;
-  background: linear-gradient(0.3turn, #1f351c, white, white);
+  height: 700px;
+  width: 80%;
+  background-image: linear-gradient(
+      to right,
+      rgba(31, 53, 28, 0.925),
+      rgba(255, 255, 255, 0.5),
+      rgb(255, 255, 255)
+    ),
+    url("/img/cabins.jpg");
+  background-size: cover;
+  /* background-image: linear-gradient(0.3turn, #1f351c, white, white); */
   margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0;
 }
 
-.index_container_img {
-  height: 800px;
+.index_about_title {
+  position: relative;
+  right: 20%;
+  top: 30%;
+  font-family: "Mulish", sans-serif;
+  letter-spacing: 10px;
+  font-size: 160px;
+  padding: 0;
+  margin: 0;
+  color: #efe6dd;
+  text-shadow: 0px 8px 2px #3d3a3a;
+}
+
+.index_sub {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  top: 30%;
+  right: 20%;
+  font-size: 50px;
+  font-family: "Amatic SC", cursive;
+  font-weight: 700;
+}
+
+.video_container {
+  position: relative;
+  left: 40%;
+  top: -10%;
+}
+
+.learn_more_button a {
+  position: relative;
+  bottom: 70px;
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  border: 2px solid black;
+}
+
+.learn_more_button a:hover {
+  background-color: white;
+  opacity: 0.8;
+}
+/* end tag line/video section */
+
+/* begin footer */
+.footer_box {
+  position: absolute;
+  margin-top: 50px;
+  background-color: #efe6dd;
+  height: 100px;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.footer_icons {
+  padding: 0;
+  position: relative;
+  top: 38%;
+  left: 45%;
+  font-size: 25px;
+}
+/* end footer */
+
+/* contact page */
+
+.contact_banner {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.651),
+      rgba(255, 255, 255, 0.404)
+    ),
+    url("/img/cobble_stone.jpg");
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  bottom: 16px;
+  margin-bottom: 0;
+}
+
+.contact_title {
+  position: relative;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 0;
+  bottom: 265px;
+  font-family: "Amatic SC", cursive;
+  font-size: 150px;
+  color: white;
+  font-weight: 700;
+}
+
+/* begin contact form / map */
+
+.contact_box {
+  background-color: #efe6dd;
+  height: 600px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -130px;
+}
+
+.contact_container {
 }
