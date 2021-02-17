@@ -81,7 +81,7 @@ body {
       rgba(0, 0, 0, 0.651),
       rgba(255, 255, 255, 0.404)
     ),
-    url("/img/moped.jpg");
+    url("./img/moped.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -199,7 +199,7 @@ body {
       rgba(255, 255, 255, 0.5),
       rgb(255, 255, 255)
     ),
-    url("/img/cabins.jpg");
+    url("./img/cabins.jpg");
   background-size: cover;
   /* background-image: linear-gradient(0.3turn, #1f351c, white, white); */
   margin-top: 50px;
@@ -292,7 +292,7 @@ body {
       rgba(0, 0, 0, 0.651),
       rgba(255, 255, 255, 0.404)
     ),
-    url("/img/cobble_stone.jpg");
+    url("./img/cobble_stone.jpg");
   height: 300px;
   width: 100%;
   background-position: center;
