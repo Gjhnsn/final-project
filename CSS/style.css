@@ -6,6 +6,7 @@ font-family: 'Raleway', sans-serif; */
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 .top_bar h1 {
@@ -76,8 +77,10 @@ body {
 /* begin hero banner */
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.651),
-      rgba(255, 255, 255, 0.404)),
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.651),
+      rgba(255, 255, 255, 0.404)
+    ),
     url("/img/moped.jpg");
   height: 50%;
   background-position: center;
@@ -190,10 +193,12 @@ body {
 .index_container {
   height: 700px;
   width: 80%;
-  background-image: linear-gradient(to right,
+  background-image: linear-gradient(
+      to right,
       rgba(31, 53, 28, 0.925),
       rgba(255, 255, 255, 0.5),
-      rgb(255, 255, 255)),
+      rgb(255, 255, 255)
+    ),
     url("/img/cabins.jpg");
   background-size: cover;
   /* background-image: linear-gradient(0.3turn, #1f351c, white, white); */
@@ -256,12 +261,26 @@ body {
   margin-bottom: 0;
 }
 
+.copyright {
+  position: relative;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  /* margin-left: 25px;
+  float: left; */
+  top: 43px;
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+}
+
 .footer_icons {
   padding: 0;
+  margin: 0;
   position: relative;
-  top: 38%;
-  left: 45%;
+  float: right;
+  margin-right: 40px;
   font-size: 25px;
+  top: 18px;
 }
 
 /* end footer */
@@ -269,8 +288,10 @@ body {
 /* contact page */
 
 .contact_banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.651),
-      rgba(255, 255, 255, 0.404)),
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.651),
+      rgba(255, 255, 255, 0.404)
+    ),
     url("/img/cobble_stone.jpg");
   height: 300px;
   width: 100%;
@@ -299,22 +320,68 @@ body {
 
 .contact_box {
   background-color: #efe6dd;
-  height: 600px;
+  height: 565px;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
   margin-top: -130px;
+  border-radius: 5px;
 }
 
 .contact_container {
   float: left;
-  padding: 50px;
+  text-align: center;
+  margin: 50px;
+  padding: 20px;
+  background-color: #243a18;
+  width: 40%;
+  height: 75%;
+  border-radius: 5px;
+}
 
+.form_title {
+  color: #efe6dd;
+  font-size: 30px;
+  font-family: "Mulish", sans-serif;
+  text-align: center;
+  padding: 10px, 0px, 0px, 0px;
+  margin: 0;
+  font-weight: 400;
 }
 
 .form {
   margin: 10px;
-
+  margin-top: 25px;
 }
 
-.input {}
+.input {
+  font-family: "Raleway", sans-serif;
+  width: 90%;
+  padding: 10px;
+  resize: none;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: solid white 1px;
+}
+
+.button {
+  font-family: "Raleway", sans-serif;
+  width: 30%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: -5px;
+  margin-bottom: 0;
+  border-radius: 25px;
+  border: solid white 1px;
+  color: white;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.main {
+  height: 500px;
+  width: 100%;
+}
