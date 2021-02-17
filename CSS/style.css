@@ -3,10 +3,15 @@ font-family: 'Amatic SC', cursive;
 font-family: 'Dosis', sans-serif;
 font-family: 'Mulish', sans-serif;
 font-family: 'Raleway', sans-serif; */
+html {
+  position: relative;
+  min-height: 100%;
+}
 
 body {
   margin: 0;
   overflow-x: hidden;
+  height: 100%;
 }
 
 .top_bar h1 {
@@ -204,6 +209,7 @@ body {
   /* background-image: linear-gradient(0.3turn, #1f351c, white, white); */
   margin-top: 50px;
   margin-left: 0;
+  margin-bottom: 100px;
 }
 
 .index_about_title {
@@ -238,7 +244,7 @@ body {
 
 .learn_more_button a {
   position: relative;
-  bottom: 70px;
+  bottom: 160px;
   background-color: rgba(255, 255, 255, 0);
   color: black;
   border: 2px solid black;
@@ -254,11 +260,11 @@ body {
 /* begin footer */
 .footer_box {
   position: absolute;
-  margin-top: 50px;
+  margin-top: 30px;
   background-color: #efe6dd;
   height: 100px;
   width: 100%;
-  margin-bottom: 0;
+  bottom: 0;
 }
 
 .copyright {
@@ -324,7 +330,8 @@ body {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -130px;
+  margin-top: -90px;
+  margin-bottom: 70px;
   border-radius: 5px;
 }
 
