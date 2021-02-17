@@ -70,22 +70,21 @@ body {
   font-size: 44px;
   right: 295px;
 }
+
 /* end nav */
 
 /* begin hero banner */
 
 .hero-image {
-  background-image: linear-gradient(
-      rgba(0, 0, 0, 0.651),
-      rgba(255, 255, 255, 0.404)
-    ),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.651),
+      rgba(255, 255, 255, 0.404)),
     url("/img/moped.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 1000px;
+  height: 700px;
   bottom: 16px;
 }
 
@@ -102,6 +101,7 @@ body {
   vertical-align: middle;
   font-family: "Amatic SC", cursive;
 }
+
 /* end hero banner */
 
 /* begin feature section */
@@ -183,18 +183,17 @@ body {
 .view_more_button a:hover {
   opacity: 1;
 }
+
 /* end feature section */
 
 /* begin tag line section */
 .index_container {
   height: 700px;
   width: 80%;
-  background-image: linear-gradient(
-      to right,
+  background-image: linear-gradient(to right,
       rgba(31, 53, 28, 0.925),
       rgba(255, 255, 255, 0.5),
-      rgb(255, 255, 255)
-    ),
+      rgb(255, 255, 255)),
     url("/img/cabins.jpg");
   background-size: cover;
   /* background-image: linear-gradient(0.3turn, #1f351c, white, white); */
@@ -244,6 +243,7 @@ body {
   background-color: white;
   opacity: 0.8;
 }
+
 /* end tag line/video section */
 
 /* begin footer */
@@ -263,15 +263,14 @@ body {
   left: 45%;
   font-size: 25px;
 }
+
 /* end footer */
 
 /* contact page */
 
 .contact_banner {
-  background-image: linear-gradient(
-      rgba(0, 0, 0, 0.651),
-      rgba(255, 255, 255, 0.404)
-    ),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.651),
+      rgba(255, 255, 255, 0.404)),
     url("/img/cobble_stone.jpg");
   height: 300px;
   width: 100%;
@@ -308,4 +307,14 @@ body {
 }
 
 .contact_container {
+  float: left;
+  padding: 50px;
+
 }
+
+.form {
+  margin: 10px;
+
+}
+
+.input {}
