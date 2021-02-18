@@ -289,6 +289,14 @@ body {
   top: 18px;
 }
 
+.footer_icons a {
+  color: black;
+}
+
+.footer_icons a:visited {
+  color: black;
+}
+
 /* end footer */
 
 /* contact page */
@@ -330,19 +338,22 @@ body {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -90px;
+  margin-top: -135px;
   margin-bottom: 70px;
   border-radius: 5px;
 }
 
 .contact_container {
-  float: left;
+  position: relative;
   text-align: center;
-  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 9%;
   padding: 20px;
   background-color: #243a18;
   width: 40%;
   height: 75%;
+  max-width: 800px;
   border-radius: 5px;
 }
 
@@ -386,4 +397,210 @@ body {
 .button:hover {
   background-color: white;
   color: black;
+}
+
+/* begin map */
+.map_box {
+  width: 100%;
+
+  text-align: center;
+}
+
+.map {
+  border-radius: 5px;
+  width: 90%;
+  margin-bottom: 65px;
+  text-align: center;
+}
+
+.empty_box {
+  height: 100px;
+  width: 100%;
+}
+/*  end contact page */
+
+/* begin about banner */
+.about_banner {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.651),
+      rgba(255, 255, 255, 0.404)
+    ),
+    url("../img/lakemtn.jpg");
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  bottom: 16px;
+  margin-bottom: 0;
+}
+
+.about_title {
+  position: relative;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 0;
+  bottom: 265px;
+  font-family: "Amatic SC", cursive;
+  font-size: 150px;
+  color: white;
+  font-weight: 800;
+}
+
+.about_container {
+  width: 100%;
+  height: 650px;
+  margin-bottom: 70px;
+}
+
+.about_box1 {
+  margin-top: -120px;
+  width: 45%;
+  float: left;
+}
+
+.about_img {
+  float: right;
+  width: 90%;
+  max-width: 500px;
+  height: auto;
+  margin: 0px 0px 0px 50px;
+}
+
+.about_box2 {
+  margin-top: -120px;
+  margin-left: 50px;
+  float: left;
+  width: 40%;
+  max-width: 800px;
+}
+
+.about_icon {
+  position: relative;
+  bottom: 8px;
+  font-size: 73px;
+  padding: 0;
+  margin: 0;
+}
+
+.about_box_name {
+  margin-top: 0;
+  margin-left: 20px;
+  margin-bottom: 0;
+  font-family: "Mulish", sans-serif;
+  font-size: 100px;
+  font-weight: 700;
+  color: #000000;
+  text-align: left;
+  letter-spacing: 5px;
+}
+
+.about_text {
+  color: black;
+  padding: 20px;
+  margin-left: 10px;
+  font-family: "Raleway", sans-serif;
+  margin-top: 0;
+  line-height: 2;
+  background-color: #efe6dd;
+  box-shadow: 20px 20px #243a18;
+}
+
+/* end about page */
+
+/* begin blog banner */
+
+.blog_banner {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.651),
+      rgba(255, 255, 255, 0.404)
+    ),
+    url("../img/france.jpg");
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  bottom: 16px;
+  margin-bottom: 0;
+}
+
+.blog_title {
+  position: relative;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 0;
+  bottom: 265px;
+  font-family: "Amatic SC", cursive;
+  font-size: 150px;
+  color: white;
+  font-weight: 800;
+  margin-bottom: -110px;
+}
+
+.blog_box {
+  width: 80%;
+  max-width: 1200px;
+  min-width: 980px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  background-color: #efe6dd;
+}
+
+.blog_img {
+  height: 100%;
+  float: left;
+}
+
+.blog_text_area {
+  height: 100%;
+  width: 50%;
+  float: left;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.blog_headline {
+  font-family: "Mulish", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #243a18;
+}
+
+.blog_paragraph {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 30px;
+}
+
+.blog_button {
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.blog_text_area a {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0);
+  color: #000000;
+  padding: 7px 20px 7px 20px;
+  border: 2px;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-size: 15px;
+}
+
+.blog_text_area a:hover {
+  background-color: white;
+  opacity: 0.8;
+}
+
+.blog_space_box {
+  height: 150px;
+  width: 100%;
 }
